@@ -1,0 +1,33 @@
+// @import "~slick-carousel/slick/slick.css"; 
+
+// @import "~slick-carousel/slick/slick-theme.css";
+
+.slider__img{
+    margin-top: 2rem;
+    position: relative;
+    .slider__text{
+        position: absolute;
+        top: 43%;
+        left: 25%;
+        text-align: center;
+        .slider--header{
+            font-family: $gamerText;
+            font-size: 3rem;
+            line-height: 5rem;
+        }
+        p{
+            color: $gamerBurn;
+            font-family: $paraText;
+        }
+    }
+    img{
+        width: 80%;
+        height: 30%;
+        margin: auto; 
+        text-align: center;
+        background-size: cover;
+        display: block;
+        box-shadow: 5px 10px 18px #888888;
+        border: 1px solid #888888;
+    }
+}

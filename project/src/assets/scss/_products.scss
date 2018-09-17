@@ -1,0 +1,29 @@
+.products--header{
+width: 100%;
+font-family: $contactHead;
+font-size: 38px;
+text-align: center;
+background-color: white;
+padding: 3% 0;
+}
+
+.productsPage--filter{
+    height: 90%;
+    width: 9%;
+    margin: none;
+}
+
+.productsPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .productsCard{
+        border: 3px solid red;
+        width: 30%;
+        div{
+            img{
+                width: 50%;
+            }
+        }
+    }
+}

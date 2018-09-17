@@ -1,0 +1,49 @@
+body {
+    background-color: $gamerSilver;
+}
+
+.navbar--top {
+    width: 100%;
+    background-color: $gamerBlack;
+    color: $gamerGrey;
+    font-family: $navFont;
+    font-size: 1.5rem;
+    ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        li{
+            &:first-child{
+                margin-right: auto;
+            }
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .navbar__logo{
+            border: none;
+            width: 40%;
+            display: inline-block;
+            // padding: 0px 0 0 20px;
+            border: 4px inset $gamerGrey;
+            background-color: $gamerSilver;
+            &:hover{
+                background-color: $gamerYellow;
+            }
+        }
+        .navbar__links{
+            display: inline-block;
+            padding: 0 5.5%;
+            align-self: center;
+            a{
+                border-bottom: 6px solid $gamerBurn;
+                transition: transform 2s;
+                &:hover{
+                    border-bottom: 6px solid $gamerYellow;
+                    transform: scale(1.5,1.5);
+                }
+            }
+        }
+    }
+}

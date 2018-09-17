@@ -1,0 +1,42 @@
+.footer--bottom{
+    width: 100%;
+    background-color: $gamerBlack;
+    color: $gamerGrey; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .footer--card{
+        padding: 2rem;
+        max-width: 25%;
+        text-align: left;
+        .footer__img{
+            text-align: center;
+        }
+        h2{
+            font-family: $navFont;
+            color: $gamerYellow;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        p{
+            font-family: $paraText;
+            font-weight: bold;
+        }
+        img{
+            height: 30px;
+            padding: 0 10px;
+        }
+        form{
+            .footer__search--text{
+                height: 20px;
+                background-color: $gamerSilver;
+                width: 300px;
+            }
+            .footer__search--button{
+                height: 20px;
+                background-color: $gamerBlue;
+                color: white;
+            }
+        }
+    }
+}
